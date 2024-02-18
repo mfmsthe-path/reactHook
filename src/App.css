@@ -1,0 +1,52 @@
+.app {
+    text-align: center;
+    
+  }
+  body {
+    background-color: black;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .film-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+  }
+  
+  .film-card {
+    background-color: #9c0d0d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .film-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .add-film-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filter {
+    margin-bottom: 20px;
+  }
+  
+  .filter input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
