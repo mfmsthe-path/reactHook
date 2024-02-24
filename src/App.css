@@ -16,13 +16,29 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
     justify-items: center;
+    text-decoration: none;
+    
+    
   }
+  .film-list h1{
+    color: white;
+    text-decoration: none;
+  }
+  .film-list h2{
+    color: white;
+  }
+
   
   .film-card {
     background-color: #9c0d0d;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+  }
+  .film-card a{
+    text-decoration: none
+  ;
   }
   
   .film-card img {
@@ -48,5 +64,18 @@
   .filter input {
     padding: 10px;
     margin-right: 10px;
+  }
+  
+  .text-colour{
+    color: white;
+    font-style: 'Roboto';
+    font-size: xx-large;
+  }
+  .liste h1{
+    color: white;
+  }
+  .liste{
+    
+    justify-content: center;
   }
   
